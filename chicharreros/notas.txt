@@ -13,3 +13,4 @@
 3) Revisar colores de texto
 4) Modificar la sección de redes sociales
 5) Modificar el footer
+6) Añadir navegación en la propia página

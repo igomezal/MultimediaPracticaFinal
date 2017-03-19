@@ -9,3 +9,7 @@
 .tenerife-img-3 {
     background-image: url(../img/slider/puertocruz.jpg);
 }
+
+#form {
+    padding-top: 20px;
+}
