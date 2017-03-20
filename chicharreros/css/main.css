@@ -57,6 +57,10 @@ main > section {
     padding: 70px 0;
 }
 
+.with-header{
+    margin-top:50px;
+}
+
 .btn {
     border-radius: 0;
     border: 0;

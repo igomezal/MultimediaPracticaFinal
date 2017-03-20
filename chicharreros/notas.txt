@@ -14,3 +14,13 @@
 4) Modificar la sección de redes sociales
 5) Modificar el footer
 6) Añadir navegación en la propia página
+
+-- Cambios Fecha: 20/03/2017
+
+* Modificado footer (solo se ha dejado el Copyright, se puede volver a modificar y dejarlo como antes).
+* Añadida página de galería y por lo tanto añadida al nav
+* Modificado css con un margin-top de 50 px para no cortar el título de Galería y de Contacto
+* Eliminados roles de main y de nav para superar https://validator.w3.org/ además de otras modificaciones menores
+
+* Habría que elegir un logo o similar para cambiar el título de chicharreros y así poner el logo (además de favicon)
+* El título de chicharreros a veces da problemas (seguro que es cosa del css o javascript)
