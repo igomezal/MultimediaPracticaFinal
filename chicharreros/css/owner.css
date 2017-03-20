@@ -1,0 +1,15 @@
+.tenerife-img-1 {
+    background-image: url(../img/slider/teide.jpg);
+}
+
+.tenerife-img-2 {
+    background-image: url(../img/slider/playa.jpg);
+}
+
+.tenerife-img-3 {
+    background-image: url(../img/slider/puertocruz.jpg);
+}
+
+#form {
+    padding-top: 20px;
+}
