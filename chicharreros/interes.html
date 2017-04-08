@@ -10,12 +10,16 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>Chicharreros: Tenerife Turismo</title>		
 		<!-- Meta Description -->
-        <meta name="description" content="Blue One Page Creative HTML5 Template">
-        <meta name="keywords" content="one page, single page, onepage, responsive, parallax, creative, business, html5, css3, css3 animation">
-        <meta name="author" content="Muhammad Morshed">
+        <meta name="description" content="Web de turismo de Tenerife">
+        <meta name="keywords" content="tenerife, turismo, tourism, viajes, travel, chicharreros, 
+        chicharro, canarias, islas, island, islas canarias, teide, santa cruz">
+        <!-- <meta name="author" content="Grupo2"> -->
 		
 		<!-- Mobile Specific Meta -->
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+		<!-- Icon -->
+		<link rel="chicharreros icon" type="image/png" href="../img/webicon.png"/>
 		
 		<!-- CSS
 		================================================== -->
@@ -71,8 +75,10 @@
 					<!-- /responsive nav button -->
 					
 					<!-- logo -->
-					<h1 class="navbar-brand">
-						<a href="index.html">Chicharreros</a>
+					<h1 class="navbar-brand logo">
+						<a href="index.html">
+						    <img src="../img/chicharro.png" alt="Chicharro logo">
+						</a>
 					</h1>
 					<!-- /logo -->
                 </div>
@@ -83,7 +89,17 @@
                         <li><a href="index.html">Inicio</a></li>
                         <li><a href="#service">Noticias</a></li>
                         <li><a href="galeria.html">Galería</a></li>
-                        <li><a href="contacto.html">Contacto</a></li>
+                        <li>
+                            <div class="dropdown">
+                              <button class="dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                                Información de Interés
+                                <span class="caret"></span>
+                              </button>
+                              <ul class="dropdown-menu">
+                                <li><a href="#">Contacto</a></li>
+                              </ul>
+                            </div>
+                        </li>
                     </ul>
                 </nav>
 				<!-- /main nav -->
