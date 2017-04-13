@@ -10,12 +10,16 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>Chicharreros: Tenerife Turismo</title>		
 		<!-- Meta Description -->
-        <meta name="description" content="Blue One Page Creative HTML5 Template">
-        <meta name="keywords" content="one page, single page, onepage, responsive, parallax, creative, business, html5, css3, css3 animation">
-        <meta name="author" content="Muhammad Morshed">
+        <meta name="description" content="Web de turismo de Tenerife">
+        <meta name="keywords" content="tenerife, turismo, tourism, viajes, travel, chicharreros, 
+        chicharro, canarias, islas, island, islas canarias, teide, santa cruz">
+        <!-- <meta name="author" content="Grupo2"> -->
 		
 		<!-- Mobile Specific Meta -->
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+		<!-- Icon -->
+		<link rel="icon" type="image/png" href="img/webicon.png"/>
 		
 		<!-- CSS
 		================================================== -->
@@ -63,7 +67,7 @@
                 <div class="navbar-header">
                     <!-- responsive nav button -->
 					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-						<span class="sr-only">Toggle navigation</span>
+						<span class="sr-only">>Modo de navegación</span>
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
@@ -71,8 +75,10 @@
 					<!-- /responsive nav button -->
 					
 					<!-- logo -->
-					<h1 class="navbar-brand">
-						<a href="index.html">Chicharreros</a>
+					<h1 class="navbar-brand logo">
+						<a href="index.html" tabindex="1">
+						    <img src="img/chicharro.png" alt="Chicharro logo">
+						</a>
 					</h1>
 					<!-- /logo -->
                 </div>
@@ -80,10 +86,20 @@
 				<!-- main nav -->
                 <nav class="collapse navbar-collapse navbar-right">
                     <ul class="nav navbar-nav">
-                        <li><a href="index.html">Inicio</a></li>
-                        <li><a href="#service">Noticias</a></li>
-                        <li><a href="galeria.html">Galería</a></li>
-                        <li><a href="contacto.html">Contacto</a></li>
+                        <li><a href="index.html" tabindex="2">Inicio</a></li>
+                        <li><a href="#service" tabindex="3">Noticias</a></li>
+                        <li><a href="galeria.html" tabindex="4">Galería</a></li>
+                        <li>
+                            <div class="dropdown">
+                              <button class="dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                                Información de Interés
+                                <span class="caret"></span>
+                              </button>
+                              <ul class="dropdown-menu">
+                                <li><a href="#" tabindex="5">Contacto</a></li>
+                              </ul>
+                            </div>
+                        </li>
                     </ul>
                 </nav>
 				<!-- /main nav -->

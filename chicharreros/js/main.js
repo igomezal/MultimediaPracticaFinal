@@ -248,15 +248,18 @@ function init() {
     // We are using a div with id="map" seen below in the <body>
     var mapElement = document.getElementById('map-canvas');
 
-    // Create the Google Map using our element and options defined above
-    var map = new google.maps.Map(mapElement, mapOptions);
+    if(mapElement != null){
 
-    // Let's also add a marker while we're at it
-    var marker = new google.maps.Marker({
-        position: new google.maps.LatLng(28.4665787, -16.2517346),
-        map: map,
-		icon: 'img/icons/map-marker.png',
-    });
+        // Create the Google Map using our element and options defined above
+        var map = new google.maps.Map(mapElement, mapOptions);
+
+        // Let's also add a marker while we're at it
+        var marker = new google.maps.Marker({
+            position: new google.maps.LatLng(28.4665787, -16.2517346),
+            map: map,
+    		icon: 'img/icons/map-marker.png',
+        });
+    }
 }
 
 // ========== END GOOGLE MAP ========== //
