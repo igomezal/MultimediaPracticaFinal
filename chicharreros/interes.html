@@ -90,14 +90,15 @@
                         <li><a href="#service" tabindex="3">Noticias</a></li>
                         <li><a href="galeria.html" tabindex="4">Galería</a></li>
                         <li>
-                            <div class="dropdown">
-                              <button class="dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-                                Información de Interés
-                                <span class="caret"></span>
-                              </button>
-                              <ul class="dropdown-menu">
-                                <li><a href="#" tabindex="5">Contacto</a></li>
-                              </ul>
+                            <div class="dropdown" style="cursor: pointer;" tabindex="5">
+                                <div class="dropdown-toggle" type="button" id="menu_interes" data-toggle="dropdown">
+                                    Datos de Interés <span class="caret"></span>
+                                </div>
+                                <ul id="nav" class="dropdown-menu interes_drop" role="menu" aria-labelledby="menu_interes">
+                                    <li role="presentation"><a role="menuitem" href="#general">Consejos e información</a></li>
+                                    <li role="presentation" class="divider"></li>
+                                    <li role="presentation"><a role="menuitem" href="#oficina">Oficinas de turismo</a></li>
+                                </ul>
                             </div>
                         </li>
                     </ul>
@@ -111,9 +112,65 @@
         ==================================== -->
 		
 		<main class="site-content with-header">
+		
+		    <!-- Service section -->
+			<section id="general">
+				<div class="container">
+					<div class="row">
+					
+						<div class="sec-title text-center">
+							<h2 class="wow animated bounceInLeft">Consejos e Información</h2>
+							<p class="wow animated bounceInRight">Información de utilidad para turistas</p>
+						</div>
+						
+						<div class="col-md-3 col-sm-6 col-xs-12 text-center wow animated zoomIn">
+							<div class="service-item">
+								<div class="service-icon">
+									<i class="fa fa-sun-o fa-3x"></i>
+								</div>
+								<h3>Clima</h3>
+								<p>Con temperaturas que oscilan entre los 17 ºC en invierno y los 25 ºC en los meses más cálidos, el ambiente se refresca con la brisa marina y los vientos alisios. Además, la orografía de la isla permite encontrar climas muy diferentes de una zona a otra. </p>
+							</div>
+						</div>
+					
+						<div class="col-md-3 col-sm-6 col-xs-12 text-center wow animated zoomIn" data-wow-delay="0.3s">
+							<div class="service-item">
+								<div class="service-icon">
+									<i class="fa fa-clock-o fa-3x"></i>
+								</div>
+								<h3>Huso horario</h3>
+								<p>No notarás diferencia alguna en la hora si viajas desde Reino Unido, Portugal o Irlanda, ya que Tenerife, al igual que Canarias, comparte el mismo huso horario que Greenwich (GMT). Si vienes desde el resto de España u otros países, deberás restar una hora a tu reloj. </p>
+							</div>
+						</div>
+					
+						<div class="col-md-3 col-sm-6 col-xs-12 text-center wow animated zoomIn" data-wow-delay="0.6s">
+							<div class="service-item">
+								<div class="service-icon">
+									<i class="fa fa-money fa-3x"></i>
+								</div>
+								<h3>Moneda</h3>
+								<p>La moneda de curso legal en Tenerife es el euro. Si procedes de algún país que no pertenece a la zona euro puedes cambiar tus divisas, presentando el pasaporte, en las numerosas agencias de cambio de las zonas turísticas, que suelen cobrar comisiones un poco más económicas. </p>
+							</div>
+						</div>
+					
+						<div class="col-md-3 col-sm-6 col-xs-12 text-center wow animated zoomIn" data-wow-delay="0.9s">
+							<div class="service-item">
+								<div class="service-icon">
+									<i class="fa fa-plug fa-3x"></i>
+								</div>
+								
+								<h3>Electricidad</h3>
+								<p>En Tenerife la corriente utilizada es de 220 voltios de Corriente Alterna y 50 Hz, la misma que en el resto de Canarias. Los enchufes tienen dos varillas redondas, como en la Europa continental. </p>
+							</div>
+						</div>
+						
+					</div>
+				</div>
+			</section>
+			<!-- end Service section -->
 			
 			<!-- Contact section -->
-			<section id="contact" >
+			<section id="oficina">
 				<div class="container">
 					<div class="row">
 						
@@ -170,14 +227,14 @@
 						<div class="row">
 						
 							<div class="sec-title text-center white wow animated fadeInDown">
-								<h2>SIGUENOS</h2>
+								<h2>SÍGUENOS</h2>
 								<p>Ponte en contacto con nosotros a través de las redes sociales</p>
 							</div>
 							
 							<ul class="social-button">
-								<li class="wow animated zoomIn"><a href="#"><i class="fa fa-twitter fa-2x"></i></a></li>
-								<li class="wow animated zoomIn" data-wow-delay="0.3s"><a href="#"><i class="fa fa-facebook fa-2x"></i></a></li>
-								<li class="wow animated zoomIn" data-wow-delay="0.6s"><a href="#"><i class="fa fa-google-plus fa-2x"></i></a></li>						
+								<li class="wow animated zoomIn"><a href="https://twitter.com/?lang=es"><i class="fa fa-twitter fa-2x"></i><p>Twitter</p></a></li>
+								<li class="wow animated zoomIn" data-wow-delay="0.3s"><a href="https://es-es.facebook.com/"><i class="fa fa-facebook fa-2x"></i><p>Facebbok</p></a></li>
+								<li class="wow animated zoomIn" data-wow-delay="0.6s"><a href="https://plus.google.com/"><i class="fa fa-google-plus fa-2x"></i><p>Google+</p></a></li>						
 							</ul>
 						</div>
 					</div>
