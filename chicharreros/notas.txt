@@ -5,6 +5,14 @@
    Solución: quitar id="nav" del  <ul> o poner dos navegadores, uno para páginas html y otro
    para scrolling a secciones de la página actual.
 
+-- Dropdown foco teclado
+$('.input-group input').keydown(function(e){
+    if(e.which == 9){ // tab
+        e.preventDefault();
+        $(this).parent().find('.dropdown-toggle').click();
+        $(this).parent().find('.dropdown-menu a:first').focus();
+    }
+});
 
 -- Cambios:
 
