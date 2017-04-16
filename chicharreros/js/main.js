@@ -270,3 +270,10 @@ var wow = new WOW ({
 });
 wow.init();
 
+$('.dropdown').keydown(function(e){
+    if(e.which == 13){ // tab
+        $('.dropdown-toggle').click();
+                    
+    }
+});
+
