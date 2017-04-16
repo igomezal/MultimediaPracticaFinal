@@ -1008,7 +1008,7 @@ textarea.form-control {
 ==============================================================*/
 
 #google-map {
-    padding: 0;
+    padding-top: 12px;
 }
 
 #map-canvas {
