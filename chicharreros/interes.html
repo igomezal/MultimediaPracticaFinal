@@ -99,7 +99,7 @@
                                     <li role="presentation" class="divider"></li>
                                     <li role="presentation"><a role="menuitem" href="#oficina">Oficinas de turismo</a></li>
                                     <li role="presentation" class="divider"></li>
-                                    <li role="presentation"><a role="menuitem" href="#contacto">Contacto</a></li>
+                                    <li role="presentation"><a role="menuitem" href="#postal">Postal</a></li>
                                     <li role="presentation" class="divider"></li>
                                     <li role="presentation"><a role="menuitem" href="#social">Social</a></li>
                                 </ul>
@@ -220,35 +220,41 @@
 			<!-- end Office section -->
            
             <!-- Contact section -->
-			<section id="contacto">
+			<section id="postal">
 				<div class="container">
 					<div class="row">
 						
 						<div class="sec-title text-center wow animated fadeInDown">
-							<h2>Contacto</h2>
-							<p>Contáctanos vía email</p>
+							<h2>Postal</h2>
+							<p>Envía una postal</p>
 						</div>
                         
                         
                         <div id="form" class="contact-form wow animated fadeInLeft">
                             <address class="contact-details">
-                                <h3 class="text-center">Envíanos un email con tus dudas o sugerencias</h3>
+                                <h3 class="text-center">Envía una postal a tus familiares y amigos a través de nuestro formulario</h3>
                             </address>
-							<form action="#contacto" method="get">
+							<form>
 								<div class="input-field">
-									<input type="text" name="name" class="form-control" placeholder="Nombre...">
-								</div>
-								<div class="input-field">
-									<input type="email" name="email" class="form-control" placeholder="Email...">
+									<input id="email" type="email" name="email" class="form-control" placeholder="Email...">
 								</div>
 								<div class="input-field">
 									<input type="text" name="subject" class="form-control" placeholder="Asunto...">
 								</div>
-								<div class="input-field">
-									<textarea name="message" class="form-control" placeholder="Mensaje..."></textarea>
+								<div class="image-picker input-field">
+									<ul>
+									    <li><img src="img/slider/teide.jpg" class="img-responsive" alt="Postal pico del Teide"></li>
+									    <li><img src="img/galeria/amanecer-teide.jpg" class="img-responsive" alt="Postal atardeceren la cima del Teide"></li>
+									    <li><img src="img/slider/playa.jpg" class="img-responsive" alt="Postal Playa de las Teresitas"></li>
+									    <li><img src="img/slider/puertocruz.jpg" class="img-responsive" alt="Postal Puerto de la Cruz"></li>
+									    <li><img src="img/galeria/puerto-de-la-cruz-3.jpg" class="img-responsive" alt="Postal Lagos Martianez"></li>
+									    <li><img src="img/galeria/senderismo-anaga-katerina-marsalkova.jpg" class="img-responsive" alt="Postal Senderismo en el rural de Anaga"></li>
+									    <li><img src="img/galeria/garachico1.jpg" class="img-responsive" alt="Postal calles de Garachico"></li>
+									</ul>
 								</div>
-						       	<button type="submit" id="submit" class="btn btn-blue btn-effect">Enviar</button>
+						       	<input type="button" value="Enviar" id="submit" class="btn btn-blue btn-effect"/>
 							</form>
+							
 						</div>
                    
                     </div>
@@ -283,12 +289,12 @@
 		
 		<footer id="footer">
 			<div class="container">
-                        <span>Datos de Interés</span>
+                        <a href="interes.html" style="color: white">Datos de Interés</a>
 					    <ul id="nav">
-					        <li><a href="#general" style="color: white">Consejos e información</a></li>
-                            <li><a href="#oficina" style="color: white">Oficinas de turismo</a></li>
-                            <li><a href="#contacto" style="color: white">Contacto</a></li>
-                            <li><a href="#social" style="color: white">Social</a></li>
+					        <li><span>Consejos e información</span></li>
+                            <li><span>Oficinas de turismo</span></li>
+                            <li><span>Contacto</span></li>
+                            <li><span>Social</span></li>
 					    </ul>
 				<div class="row text-center">
 					<div class="footer-content">
@@ -323,5 +329,7 @@
         <script src="js/main.js"></script>
         <!-- Map Functions -->
         <script src="js/maps.js"></script>
+        <!-- Image Picker Functions -->
+        <script src="js/image.picker.js"></script>
     </body>
 </html>

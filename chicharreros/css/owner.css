@@ -65,6 +65,31 @@
     height: 259px;
 }
 
-#form {
-    padding-top: 20px;
+.image-picker {
+    border: 1px solid #ececec;
+    overflow: auto;
+    white-space: nowrap;
+}
+
+.image-picker>ul>li {
+    padding-top: 10px;
+    list-style-type: none;
+    display: inline-block;
+}
+
+.image-picker>ul>li>img {    
+    width: 300px;
+    height: 199px;
+}
+
+.image-picker>ul>li>img:hover {
+    border: 5px solid black;
+}
+
+.image-selected {
+    border: 5px solid limegreen;
+}
+
+#post {
+    margin-top: 10px;
 }
