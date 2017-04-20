@@ -255,7 +255,7 @@ function init() {
 
         // Let's also add a marker while we're at it
         var marker = new google.maps.Marker({
-            position: new google.maps.LatLng(28.4665787, -16.2517346),
+            position: new google.maps.LatLng(28.4667801, -16.2492815),
             map: map,
     		icon: 'img/icons/map-marker.png',
         });
@@ -269,4 +269,11 @@ var wow = new WOW ({
 	mobile:       false,       // trigger animations on mobile devices (default is true)
 });
 wow.init();
+
+$('.dropdown').keydown(function(e){
+    if(e.which == 13){ // tab
+        $('.dropdown-toggle').click();
+                    
+    }
+});
 

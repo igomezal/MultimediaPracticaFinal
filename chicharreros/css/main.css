@@ -58,7 +58,7 @@ main > section {
 }
 
 .with-header{
-    margin-top:50px;
+    margin-top:20px;
 }
 
 .btn {
@@ -289,7 +289,7 @@ main > section {
 }
 
 #navigation.animated-header {
-    padding: 20px 0;
+    /*padding: 20px 0;*/
 }
 
 h1.navbar-brand {
@@ -1008,7 +1008,7 @@ textarea.form-control {
 ==============================================================*/
 
 #google-map {
-    padding: 0;
+    padding-top: 12px;
 }
 
 #map-canvas {
@@ -1447,6 +1447,10 @@ textarea.form-control {
 
 .responsive-video-margen{
     margin-bottom: 1%;
-    margin-right: 1%;
+    margin-right: 1.2%;
     margin-left: 0.3%;
+}
+
+.navbar-inverse .navbar-collapse{
+    margin-top:12px;
 }
