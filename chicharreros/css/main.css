@@ -14,6 +14,11 @@
 /*	Basic Style 
 /* =================================== */
 
+.audioplayer {
+    margin: auto;
+    display: block;
+}
+
 body {
     background-color: #fff;
     font-family: 'Open Sans', sans-serif;
