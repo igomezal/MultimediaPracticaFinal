@@ -5,14 +5,23 @@
    Solución: quitar id="nav" del  <ul> o poner dos navegadores, uno para páginas html y otro
    para scrolling a secciones de la página actual.
 
--- Dropdown foco teclado
-$('.input-group input').keydown(function(e){
-    if(e.which == 9){ // tab
-        e.preventDefault();
-        $(this).parent().find('.dropdown-toggle').click();
-        $(this).parent().find('.dropdown-menu a:first').focus();
-    }
-});
+-- Footer con mapa de la pagina
+<footer id="footer">
+			<div class="container">
+                        <a href="interes.html" style="color: white">Datos de Interés</a>
+					    <ul id="nav">
+					        <li><span>Consejos e información</span></li>
+                            <li><span>Oficinas de turismo</span></li>
+                            <li><span>Contacto</span></li>
+                            <li><span>Social</span></li>
+					    </ul>
+				<div class="row text-center">
+					<div class="footer-content">
+				        <p>Copyright &copy; 2017 Chicharreros </p>
+					</div>
+				</div>
+			</div>
+		</footer>
 
 -- Cambios:
 

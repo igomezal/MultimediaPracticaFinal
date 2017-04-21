@@ -9,6 +9,16 @@
     text-transform: uppercase;
 }
 
+@media (max-width: 767px) {
+    #nav>li>a {
+        color: white;
+    }
+    
+    #nav>li>a:hover {
+        color: black;
+    }
+}
+
 .nav>li>div {
     position: relative;
     display: block;
@@ -82,7 +92,7 @@
     height: 199px;
 }
 
-.image-picker>ul>li>img:hover {
+.image-picker>ul>li>img:hover, .image-picker>ul>li>img:focus {
     border: 5px solid black;
 }
 
