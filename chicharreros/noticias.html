@@ -5,14 +5,17 @@
 	    <meta charset="utf-8">
 		<!-- Always force latest IE rendering engine or request Chrome Frame -->
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	    <title>Chicharreros: Tenerife Turismo</title>		
+	    <title>Chicharreros: Tenerife Turismo - Noticias</title>
 		<!-- Meta Description -->
-	    <meta name="description" content="Blue One Page Creative HTML5 Template">
-	    <meta name="keywords" content="one page, single page, onepage, responsive, parallax, creative, business, html5, css3, css3 animation">
-	    <meta name="author" content="Muhammad Morshed">
+	    <meta name="description" content="Web de turismo de Tenerife">
+        <meta name="keywords" content="tenerife, turismo, tourism, viajes, travel, chicharreros, 
+        chicharro, canarias, islas, island, islas canarias, teide, santa cruz">
 		
 		<!-- Mobile Specific Meta -->
 	    <meta name="viewport" content="width=device-width, initial-scale=1">
+	    
+	    <!-- Icon -->
+		<link rel="icon" type="image/png" href="img/webicon.png"/>
 		
 		<!-- CSS
 		================================================== -->
@@ -52,7 +55,7 @@
 		<!--
         Fixed Navigation
         ==================================== -->
-        <header id="navigation" class="navbar-inverse navbar-fixed-top animated-header">
+        <header id="navigation" class="navbar-inverse animated-header">
             <div class="container">
                 <div class="navbar-header">
                     <!-- responsive nav button -->
@@ -65,8 +68,10 @@
 					<!-- /responsive nav button -->
 					
 					<!-- logo -->
-					<h1 class="navbar-brand">
-						<a href="index.html">Chicharreros</a>
+					<h1 class="navbar-brand logo">
+						<a href="index.html" tabindex="1">
+						    <img src="img/chicharro_inverted.png" alt="Chicharro logo" height="165" width="198">
+						</a>
 					</h1>
 					<!-- /logo -->
                 </div>
@@ -74,10 +79,10 @@
 				<!-- main nav -->
                 <nav class="collapse navbar-collapse navbar-right">
                     <ul class="nav navbar-nav">
-                        <li><a href="index.html">Inicio</a></li>
-                        <li><a href="#">Noticias</a></li>
-                        <li><a href="galeria.html">Galería</a></li>
-                        <li><a href="contacto.html">Contacto</a></li>
+                        <li><a href="index.html" tabindex="2">Inicio</a></li>
+                        <li><a href="noticias.html" tabindex="3">Noticias</a></li>
+                        <li><a href="galeria.html" tabindex="4">Galería</a></li>
+                        <li><a href="interes.html" tabindex="5">Datos de Interés</a></li>
                     </ul>
                 </nav>
 				<!-- /main nav -->
@@ -90,7 +95,12 @@
 
 
 
-		<main class="site-content with-header">		
+		<main class="site-content with-header">	
+            
+            <div id="breadcrumb" class="container">
+				<a href="index.html" tabindex="6">Inicio</a><span> > Noticias</span>
+			</div>
+            
 			<!-- portfolio section -->
 			<section id="portfolio">
 				<div class="container">
@@ -103,7 +113,7 @@
 						
 						<ul class="project-wrapper wow animated fadeInUp">
 							<li class="portfolio-item">
-								<img src="img/noticias/fotonoticia1.jpg" class="img-responsive resumenNoticia" id="noticia1">
+								<img src="img/noticias/fotonoticia1.jpg" class="img-responsive resumenNoticia" id="fotoNoticia1" tabindex="7" onkeypress="moverNoticia(event)" alt="Imagen del aeropuerto de Canarias lleno de gente">
 								<figure>
 									<figcaption class="mask resumenNoticia" id="noticia1">
 										<p>Los aeropuertos canarios registran más de 3,7 millones de pasajeros en marzo</p>
@@ -113,7 +123,7 @@
 							</li>
 							
 							<li class="portfolio-item">
-								<img src="img/noticias/fotonoticia2.jpg" class="img-responsive resumenNoticia" id="noticia2">
+								<img src="img/noticias/fotonoticia2.jpg" class="img-responsive resumenNoticia" id="fotoNoticia2" tabindex="8" onkeypress="moverNoticia(event)" alt="Imagen del teleferico que sube al Teide">
 								<figure>
 									<figcaption class="mask resumenNoticia" id="noticia2">
 										<p>El nivel de satisfacción de los usuarios del Teleférico del Teide supera su máximo histórico</p>
@@ -123,7 +133,7 @@
 							</li>
 							
 							<li class="portfolio-item">
-								<img src="img/noticias/fotonoticia6.jpg" class="img-responsive resumenNoticia" id="noticia3">
+								<img src="img/noticias/fotonoticia6.jpg" class="img-responsive resumenNoticia" id="fotoNoticia3" tabindex="9" onkeypress="moverNoticia(event)" alt="Imagen del Teide desde el aire">
 								<figure>
 									<figcaption class="mask resumenNoticia" id="noticia3">
 										<p>El Teide bate su récord de visitantes en 2016, con más de cuatro millones</p>
@@ -133,7 +143,7 @@
 							</li>
 							
 							<li class="portfolio-item">
-								<img src="img/noticias/fotonoticia4.jpg" class="img-responsive resumenNoticia" id="noticia4">
+								<img src="img/noticias/fotonoticia4.jpg" class="img-responsive resumenNoticia" id="fotoNoticia4" tabindex="10" onkeypress="moverNoticia(event)" alt="Imagen de unos acantilados de la isla de Tenerife">
 								<figure>
 									<figcaption class="mask resumenNoticia" id="noticia4">
 										<p>Lanzan una campaña para sensibilizar sobre la conservación de los acantilados de Los Gigantes</p>
@@ -143,7 +153,7 @@
 							</li>
 							
 							<li class="portfolio-item">
-								<img src="img/noticias/fotonoticia5.jpg" class="img-responsive resumenNoticia" id="noticia5">
+								<img src="img/noticias/fotonoticia5.jpg" class="img-responsive resumenNoticia" id="fotoNoticia5" tabindex="11" onkeypress="moverNoticia(event)" alt="Imagen del Teide con nieve">
 								<figure>
 									<figcaption class="mask resumenNoticia" id="noticia5">
 										<p>Los atractivos turísticos de Tenerife, protagonistas de programas de televisión en Dinamarca, Chequia y Bélgica</p>
@@ -153,7 +163,7 @@
 							</li>
 							
 							<li class="portfolio-item">
-								<img src="img/noticias/fotonoticia3.jpg" class="img-responsive resumenNoticia" id="noticia6">
+								<img src="img/noticias/fotonoticia3.jpg" class="img-responsive resumenNoticia" id="fotoNoticia6" tabindex="12" onkeypress="moverNoticia(event)" alt="Imagen de gente bailando en el baile de Magos de Santa Cruz">
 								<figure>
 									<figcaption class="mask resumenNoticia" id="noticia6">
 										<p>El lunes se abre el plazo de reserva de mesas para el Baile de Magos de Santa Cruz</p>
@@ -164,7 +174,7 @@
 
 							
 						</ul>
-						<div class="jumbotron" id="noticiaConcreta">
+						<div id="noticiaConcreta">
                             
                         </div>
 					</div>
