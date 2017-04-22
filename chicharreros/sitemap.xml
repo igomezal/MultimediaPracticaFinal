@@ -5,27 +5,28 @@
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <url>
-  <loc>http://chicharreros.esy.es/</loc>
-  <lastmod>2017-04-16T19:47:25+00:00</lastmod>
-  <changefreq>weekly</changefreq>
+  <loc>http://chicharreros.000webhostapp.com/</loc>
+  <changefreq>daily</changefreq>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>http://chicharreros.esy.es/index.html</loc>
-  <lastmod>2017-04-16T19:47:25+00:00</lastmod>
-  <changefreq>weekly</changefreq>
+  <loc>http://chicharreros.000webhostapp.com/index.html</loc>
+  <changefreq>daily</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://chicharreros.esy.es/galeria.html</loc>
-  <lastmod>2017-04-16T19:47:25+00:00</lastmod>
-  <changefreq>weekly</changefreq>
+  <loc>http://chicharreros.000webhostapp.com/noticias.html</loc>
+  <changefreq>daily</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://chicharreros.esy.es/interes.html</loc>
-  <lastmod>2017-04-16T19:47:25+00:00</lastmod>
-  <changefreq>weekly</changefreq>
+  <loc>http://chicharreros.000webhostapp.com/galeria.html</loc>
+  <changefreq>daily</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://chicharreros.000webhostapp.com/interes.html</loc>
+  <changefreq>daily</changefreq>
   <priority>0.80</priority>
 </url>
 </urlset>
