@@ -61,7 +61,6 @@
 }
 
 #nav-arrows > a {
-  border: 1px solid #fff;
   color: #fff;
   display: block;
   height: 60px;
@@ -89,8 +88,6 @@
 }
 
 #nav-arrows > a.sl-next:hover {
-	background-color: #009EE3;
-	border-color: #009EE3;
 	color: #fff;
 }
 
