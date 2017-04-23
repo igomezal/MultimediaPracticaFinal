@@ -96,10 +96,24 @@
     border: 5px solid black;
 }
 
-.image-selected {
-    border: 5px solid limegreen;
-}
-
 #post {
     margin-top: 10px;
+}
+
+.h3-line {
+    border-bottom: 1px solid #008ecc;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(0, 142, 204);
+    font-weight: 700;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    text-transform: uppercase;
+}
+
+#span-label {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: 700;
 }
