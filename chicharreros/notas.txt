@@ -1,0 +1,43 @@
+-- Scroll por link vs navegación por link:
+   El ul dentro del nav tiene un id que se usa en una función jquery para hacer el scroll
+   personalizado al pinchar un link (dentro de la misma página), dicha función impide 
+   navegar a otros html.
+   Solución: quitar id="nav" del  <ul> o poner dos navegadores, uno para páginas html y otro
+   para scrolling a secciones de la página actual.
+
+-- Footer con mapa de la pagina
+<footer id="footer">
+			<div class="container">
+                        <a href="interes.html" style="color: white">Datos de Interés</a>
+					    <ul id="nav">
+					        <li><span>Consejos e información</span></li>
+                            <li><span>Oficinas de turismo</span></li>
+                            <li><span>Contacto</span></li>
+                            <li><span>Social</span></li>
+					    </ul>
+				<div class="row text-center">
+					<div class="footer-content">
+				        <p>Copyright &copy; 2017 Chicharreros </p>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+-- Cambios:
+
+1) Cambiar mapa
+2) Ajustar los padding de algunos elementos
+3) Revisar colores de texto
+4) Modificar la sección de redes sociales
+5) Modificar el footer
+6) Añadir navegación en la propia página
+
+-- Cambios Fecha: 20/03/2017
+
+* Modificado footer (solo se ha dejado el Copyright, se puede volver a modificar y dejarlo como antes).
+* Añadida página de galería y por lo tanto añadida al nav
+* Modificado css con un margin-top de 50 px para no cortar el título de Galería y de Contacto
+* Eliminados roles de main y de nav para superar https://validator.w3.org/ además de otras modificaciones menores
+
+* Habría que elegir un logo o similar para cambiar el título de chicharreros y así poner el logo (además de favicon)
+* El título de chicharreros a veces da problemas (seguro que es cosa del css o javascript)

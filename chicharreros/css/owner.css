@@ -1,0 +1,119 @@
+#menu_interes {
+    color: #fff;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+.interes_drop {
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+@media (max-width: 767px) {
+    #nav>li>a {
+        color: white;
+    }
+    
+    #nav>li>a:hover {
+        color: black;
+    }
+}
+
+.nav>li>div {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+}
+
+.navbar-nav>li>div {
+    padding-top:10px;
+    padding-bottom:10px;
+    line-height:20px;
+}
+
+.navbar-nav>li>div{
+    color:#777
+}
+
+@media (min-width: 768px) {
+.navbar-nav>li>div {
+    padding-top:15px;
+    padding-bottom:15px;
+}
+}
+
+.navbar-nav>li>div:hover,.navbar-nav>li>div:focus{
+    color:#333;
+    background-color:transparent;
+}
+
+.logo {
+    height: 74px;
+    width: 88px;
+    padding: 0px 0px;
+}
+
+.logo> a> img {
+    height: 74px;
+    width: 88px;
+}
+
+.tenerife-img-1 {
+    background-image: url(../img/slider/teide.jpg);
+}
+
+.tenerife-img-2 {
+    background-image: url(../img/slider/playa.jpg);
+}
+
+.tenerife-img-3 {
+    background-image: url(../img/slider/puertocruz.jpg);
+}
+
+.maps {
+    width: 100%;
+    height: 259px;
+}
+
+.image-picker {
+    border: 1px solid #ececec;
+    overflow: auto;
+    white-space: nowrap;
+}
+
+.image-picker>ul>li {
+    padding-top: 10px;
+    list-style-type: none;
+    display: inline-block;
+}
+
+.image-picker>ul>li>img {    
+    width: 300px;
+    height: 199px;
+}
+
+.image-picker>ul>li>img:hover, .image-picker>ul>li>img:focus {
+    border: 5px solid black;
+}
+
+#post {
+    margin-top: 10px;
+}
+
+.h3-line {
+    border-bottom: 1px solid #008ecc;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(0, 142, 204);
+    font-weight: 700;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    text-transform: uppercase;
+}
+
+#span-label {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: 700;
+}
