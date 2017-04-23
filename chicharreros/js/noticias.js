@@ -6,7 +6,7 @@ $(document).ready(function(){
         $('html,body').animate({
             scrollTop: $("#noticiaConcreta").offset().top
         }, 1000);
-        $("#noticiaConcreta").focusin;
+        document.getElementById("noticiaConcreta").focus();
     })
 })
 
@@ -18,7 +18,7 @@ var moverNoticia = function(e) {
             $('html,body').animate({
                 scrollTop: $("#noticiaConcreta").offset().top
             }, 1000);
-            $("#noticiaConcreta").focusin;
+            document.getElementById("noticiaConcreta").focus();
         }
 }
 
