@@ -2,7 +2,17 @@ $(document).ready(function() {
     var selected = false;
     
     $('ul > li > img').click(function() {
+        $('ul > li > img').removeClass('selected');
         selected = true;
+        $(this).addClass('selected');
+    });
+    
+    $('ul > li > img').keydown(function(e){
+        if(e.which == 13){ // enter
+            $('ul > li > img').removeClass('selected');
+            selected = true;
+            $(this).addClass('selected');
+        }
     });
     
     $('#submit').click(function(event) {
